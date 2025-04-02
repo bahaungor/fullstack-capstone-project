@@ -22,7 +22,7 @@ async function connectToDatabase() {
     dbInstance = client.db(dbName)
 
     // Task 3: Return database instance
-    return db
+    return dbInstance
 }
 
 module.exports = connectToDatabase;
